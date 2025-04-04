@@ -1,10 +1,19 @@
 body {
     background-color: #FF9A8A;
     padding: 20px;
-}
-
-h1 {
+  }
+  
+  h1 {
     padding: 20px;
     background-color: white;
     border-radius: 5px;
-}
+  }
+  
+  p {
+    background-color: #524F81;
+    color: #FEFBEA;
+    border-radius: 5px;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+  }
