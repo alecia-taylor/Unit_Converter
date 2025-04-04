@@ -1,16 +1,17 @@
-function convert (){
-  const inputValue = 10;
-const milesToKm = false;
-const kmToMiles = true;
-let result = 0;
 
+function convert() {
+  const inputValue = document.getElementById("userInput").value;
+  const milesToKm = document.getElementById("unit").value === "milesToKm";
+  let result = 0;
 
-if (milesToKm) {
-  result = inputValue * 1.60934;
-} else if (kmToMiles) {
-  result = inputValue / 1.60934;
+  if (milesToKm) {
+    result = inputValue * 1.60934;
+  } else {
+    result = inputValue / 1.60934;
+  }
+
+  const resultString = inputValue + " units are " + result + " converted units";
+  const resultElement = document.getElementById('resultElement');
+  resultElement.innerHTML = resultString;
+  console.log(resultString);
 }
-const resultString = inputValue + " miles are " + result + " km ";
-const resultElement = document.getElementById('resultElement');
-resultElement.innerHTML = resultString;
-console.log (resultString);}
