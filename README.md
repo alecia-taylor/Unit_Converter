@@ -19,10 +19,6 @@ Check it out here:
 - Kilometers ↔ Miles
 - Centimeters ↔ Inches
 
-### 🔹 Weight
-- Kilograms ↔ Pounds
-- Grams ↔ Ounces
-
 ### 🔹 Temperature
 - Celsius ↔ Fahrenheit
 - Celsius ↔ Kelvin
