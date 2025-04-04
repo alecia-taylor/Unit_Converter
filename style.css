@@ -1,19 +1,29 @@
-body {
-    background-color: #FF9A8A;
-    padding: 20px;
-  }
-  
-  h1 {
-    padding: 20px;
-    background-color: white;
-    border-radius: 5px;
-  }
-  
-  p {
-    background-color: #524F81;
-    color: #FEFBEA;
-    border-radius: 5px;
-    width: 200px;
-    height: 100px;
-    padding: 10px;
-  }
+@font-face {
+  font-family: 'NoteStarFont';
+  src: url('notestar.thin.ttf') format('truetype');
+}
+
+h1 {
+  font-family: 'NoteStarFont', sans-serif;
+}
+
+
+h1 {
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+p {
+  background-color: #524F81;
+  color: #FEFBEA;
+  border-radius: 5px;
+  width: 200px;
+  height: 100px;
+  padding: 10px;
+  transition: background-color 0.5s ease;
+}
+
+p span {
+  padding: 5px;
+}
