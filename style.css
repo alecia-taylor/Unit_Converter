@@ -1,4 +1,10 @@
 body {
     background-color: #FF9A8A;
     padding: 20px;
-    }
+}
+
+h1 {
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+}
