@@ -3,12 +3,18 @@
   src: url('notestar.thin.ttf') format('truetype');
 }
 
-h1 {
-  font-family: 'NoteStarFont', sans-serif;
+body{
+background-color: #EDC9AF;
+padding: 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
 }
 
-
 h1 {
+  font-family: 'NoteStarFont', sans-serif;
   padding: 20px;
   background-color: white;
   border-radius: 5px;
