@@ -2,8 +2,8 @@
 
 A simple, responsive unit converter built with HTML, CSS, and JavaScript. Quickly convert values between different units of **Length**, **Weight**, and **Temperature** with a clean UI and smooth UX.
 
-## 🌐 Live Demo
-Check it out here: 
+## 🌐 Demo
+
 
 ## ✨ Features
 - ✅ Convert between metric and imperial units
